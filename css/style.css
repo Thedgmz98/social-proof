@@ -1,0 +1,256 @@
+body {
+     background-image: url(bg-pattern-top-desktop.svg);
+     background-size: contain;
+     background-attachment: fixed;
+     font-family: "League Spartan";
+     font-weight: 400, 500, 700;
+}
+
+.container {
+     display: flex;
+     padding-right: 5%;
+}
+
+.pt1 {
+     color: hsl(300, 43%, 22%);
+     padding-left: 8%;
+     padding-top: 2%;
+}
+
+h1 {
+     font-size: 50px;
+     font-weight: 700px;
+}
+
+.chup {
+     font-size: 18px;
+}
+
+.card1 {
+     padding-top: 9%;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+}
+
+.nep {
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+     background-color: hsl(300, 24%, 94%);
+     border-radius: 10px;
+     width: 450px;
+     height: 65px;
+}
+
+.star {
+     padding-left: 5%;
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+}
+
+.ql {
+     padding-right: 10%;
+     font-weight: bold;
+     color: hsl(300, 43%, 22%);
+}
+
+.nep2 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+     margin-left: 16%;
+     background-color: hsl(300, 24%, 94%);
+     border-radius: 10px;
+     width: 470px;
+     height: 65px;
+}
+
+.start {
+     padding-left: 5%;
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+}
+
+.p2 {
+     padding-right: 10%;
+     font-weight: bold;
+     color: hsl(300, 43%, 22%);
+}
+
+.nep3 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+     background-color: hsl(300, 24%, 96%);
+     border-radius: 10px;
+     margin-left: 26%;
+     width: 498px;
+     height: 65px;
+}
+
+.stard {
+     padding-left: 5%;
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+}
+
+.p3 {
+     padding-right: 10%;
+     font-weight: bold;
+     color: hsl(300, 43%, 22%);
+}
+
+.tep {
+     display: inline-flex;
+     justify-content: space-around;
+
+     padding-left: 8%;
+}
+
+.mover {
+     padding-top: 5%;
+     padding-left: 8%;
+}
+
+.mover2 {
+     padding-top: 7%;
+     padding-left: 5%;
+}
+
+.comment1 {
+     background-color: hsl(300, 43%, 22%);
+     border-radius: 10px;
+     width: 370px;
+     height: 250px;
+}
+
+.chojuan {
+     display: inline-flex;
+     padding-top: 10%;
+     padding-left: 15%;
+}
+
+.ñep1 {
+     border-radius: 40px;
+     width: 30%;
+     height: 20%;
+}
+
+.chachon1 {
+     padding-left: 15%;
+     color: hsl(300, 24%, 96%);
+}
+
+.par2 {
+
+     font-size: 16px;
+     padding-top: 5%;
+     text-align: center;
+     color: hsl(300, 24%, 96%);
+}
+
+.mover3 {
+     padding-top: 9%;
+     padding-left: 5%;
+}
+
+@media (max-width: 767px) {
+     body {
+          background-image: url('bg-pattern-top-mobile.svg');
+          background-size: contain;
+          background-attachment: fixed;
+          font-family: "League Spartan";
+          font-weight: 400, 500, 700;
+     }
+
+     .container {
+          display: inline-flex;
+          flex-direction: column;
+     }
+
+     .pt1 {
+          text-align: center;
+     }
+
+     .chup {
+          text-align: center;
+          font-size: 17px;
+     }
+.star, .stard, .start{
+     margin-right: 15%;
+}
+
+.st{
+     display: flex;
+     padding-top: 4%; 
+     justify-content: space-evenly;
+     padding: 2px 2px;
+     margin-right: 5%;
+}
+.ql, .p2, .p3{
+     display: flex;
+     margin-left: 10%;
+     text-align: center;
+     font-weight: 700;
+}
+     .card1 {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .nep,
+     .nep2,
+     .nep3 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 300px;
+          padding: 10px 10px;
+     }
+
+     .nep {
+          margin-left: 4%;
+     }
+
+     .nep2 {
+          margin-right: 5%;
+          text-align: center;
+     }
+
+     .nep3 {
+          margin-right: 15%;
+          text-align: center;
+     }
+
+     .tep {
+          display: inline-block;
+          padding-top: 5%;
+     }
+
+     .comment1 {
+          width: 300px;
+     }
+
+     .chojuan {
+          display: flex;
+     }
+
+     .ñep1 {
+          border-radius: 40px;
+          width: 20%;
+          height: 15%;
+     }
+
+     .mover2,
+     .mover3 {
+          padding-left: 8%;
+     }
+}
